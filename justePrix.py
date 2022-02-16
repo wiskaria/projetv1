@@ -1,7 +1,7 @@
 from random import randint
 print("bonjour et bienvenue au juste prix")
 prix = randint(1, 100)
-reponse = int(input("entrer un prix : "))
+reponse = int(input("entrer un prix entre 1 et 100 : "))
 
 
 while prix != reponse:
